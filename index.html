@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore the World</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .hero {
+            background-image: url('https://source.unsplash.com/1600x900/?travel');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            color: rgb(10, 12, 1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            text-shadow: 2px 2px 4px rgba(109, 69, 69, 0.7);
+        }
+
+        .destinations {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .destination {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .destination:hover {
+            transform: scale(1.05);
+        }
+
+        .destination img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .destination h3 {
+            margin: 10px;
+        }
+
+        .destination p {
+            margin: 0 10px 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Travelling is fun</h1>
+        <p>Your guide to the most beautiful travel destinations so explore the world</p>
+    </header>
+
+    <nav>
+        <a href="file:///C:/Users/saman/OneDrive/Desktop/travel.html">Home</a>
+        <a href="file:///C:/Users/saman/OneDrive/Desktop/traveldestination.html#">Destinations</a>
+        <a href="file:///C:/Users/saman/OneDrive/Desktop/travelabout.html#contact">About </a>
+        <a href="file:///C:/Users/saman/OneDrive/Desktop/travelcontact.html">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <h1>Discover Your Next Adventure</h1>
+    </section>
+
+    <section id="destinations" class="destinations">
+        <div class="destination">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.skyOFELij0GaFcFzB_Xw8wHaEj&pid=Api&P=0&h=180" alt="Beach">
+            <h3>Sunny Beaches</h3>
+            <p>Relax and unwind on the most beautiful beaches in the world.</p>
+        </div>
+        <div class="destination">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.YCysWiDN5r1qyfByFbx2kwHaEo&pid=Api&P=0&h=180" alt="Mountains">
+            <h3>Majestic Mountains</h3>
+            <p>Experience the thrill of hiking and breathtaking views.</p>
+        </div>
+        <div class="destination">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.9uBfN2cX9QMlCDnRHKaw4QHaE8&pid=Api&P=0&h=180" alt="City">
+            <h3>Vibrant Cities</h3>
+            <p>Explore bustling cities full of culture and history.</p>
+        </div>
+        <div class="destination">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.3ay5YyWp6gOnsTGWp3KUqQHaE7&pid=Api&P=0&h=180" alt="Forest">
+            <h3>Enchanting Forests</h3>
+            <p>Reconnect with nature in serene forest landscapes.</p>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <p>&copy; 2025 Explore the World. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
